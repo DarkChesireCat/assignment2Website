@@ -34,25 +34,23 @@
                     <!-- Creates a gap for the user to see the background -->
 
             <!-- Contains code for the nav bar -->
-            <nav>
-                <div class="nav-wrapper container">
-                    <a href="#" class="brand-logo">Stay Down There Footer</a>
-                        <ul id="nav-mobile" class="right hide-on-med-and-down">
-                            <li><a href="sass.html">Sass</a></li>
-                            <li><a href="badges.html">Components</a></li>
-                            <li><a href="collapsible.html">JavaScript</a></li>
-                        </ul>
-               
-                </div>
-            </nav>
-            <div class="parallax"><br><br><br><br><br><br><br><br></div>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo right">Logo</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a></li>
+        <li><a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a></li>
+        <li><a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a></li>
+      </ul>
+    </div>
+  </nav>
         </header>
         
             <!-- Code for cards -->
         <main>
 <div class="row container">
     <!--card 1-->
-    <div class="col s12 m7">
+    <div class="col s6">
     
     <div class="card horizontal">
       <div class="card-image">
@@ -69,7 +67,7 @@
     </div>
   </div>
     <!--card2-->
-    <div class="col s12 m7">
+    <div class="col s6">
 
     <div class="card horizontal">
       <div class="card-image">
@@ -86,7 +84,7 @@
     </div>
   </div>
     <!-- card 3 -->
-        <div class="col s12 m7">
+        <div class="col s6">
 
     <div class="card horizontal">
       <div class="card-image">
@@ -104,8 +102,6 @@
   </div>
             </div>
             
-            <!-- Container element -->
-                <div class="parallax"><br><br><br><br><br><br><br><br></div>
         </main>
         
         
@@ -137,6 +133,11 @@
 
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script>
+        function displayCard1() {
+            document.getElementById("card1").innerHTML
+        }
+        </script>
     <script>$(document).ready(function(){$('.parallax').parallax();});</script>
     </body>
   </html>
